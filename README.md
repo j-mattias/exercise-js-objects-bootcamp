@@ -32,10 +32,6 @@ För samtliga uppgifter nedan, ladda ner och utgå från users.js genom att läg
 
 Skapa en funktion som tar emot listan på användare och en landskod och returnerar en ny lista innehållande endast användare med den landskoden.
 
-### filterByGender
-
-Skapa en funktion som tar emot listan på användare och en sträng "Male" eller "Female" och returnerar en ny lista innehållande endast kvinnliga eller manliga användare.
-
 ### listEmails
 
 Skapa en funktion som tar emot listan på användare och returnerar en lista innehållandes endast användarnas emailaddresser
