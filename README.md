@@ -50,7 +50,7 @@ Skapa en funktion som listar alla e-mail-adresser enligt det nya formatet.
 | Tyskland | DE | .de |
 | Norge | NO | .no |
 | USA | US | .us |
-| Findland | FI | .fi |
+| Finland | FI | .fi |
 | Storbritannien | GB | .uk |
 | Nederländerna | NL | .nl |
 | Nya Zeeland | NZ | .nz |
