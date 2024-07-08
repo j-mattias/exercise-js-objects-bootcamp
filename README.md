@@ -50,7 +50,6 @@ Skapa en funktion som listar alla e-mail-adresser enligt det nya formatet.
 | Tyskland | DE | .de |
 | Norge | NO | .no |
 | USA | US | .us |
-| Turkiet | TR | .tr |
 | Findland | FI | .fi |
 | Storbritannien | GB | .uk |
 | Nederländerna | NL | .nl |
@@ -59,6 +58,5 @@ Skapa en funktion som listar alla e-mail-adresser enligt det nya formatet.
 | Estland | ES | .ee |
 | Irland | IE | .ie |
 | Danmark | DK | .dk |
-| Iran | IR | .ir |
 | Brasilien | BR | .br |
 | Kanada | CA | .ca |
