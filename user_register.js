@@ -49,7 +49,8 @@ function listEmails(arr) {
   return emails;
 }
 
-function reformatEmails(arr) {
+// Reformat Emails: push
+/* function reformatEmails(arr) {
   let reformatted = [];
 
   arr.forEach((user) => {
@@ -62,4 +63,18 @@ function reformatEmails(arr) {
   });
 
   return reformatted;
+} */
+
+// Reformat Emails: spread
+function reformatEmails(arr) {
+  let reformat = [...arr];
+
+  reformat.forEach((user) => {
+    const code = user.nat.toLowerCase();
+    const emailSplit = user.email.split("@");
+    const name = emailSplit[0].split(".");
+    user.email = `${name[1]}.${name[0]}@evilcorp.${code}`;
+  });
+
+  return reformat;
 }
