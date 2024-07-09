@@ -67,7 +67,10 @@ function listEmails(arr) {
 
 // Reformat Emails: spread
 function reformatEmails(arr) {
-  let reformat = [...arr];
+  // let reformat = [...arr];
+  // Deep copy
+  // let reformat = JSON.parse(JSON.stringify(arr));
+  let reformat = structuredClone(arr);
 
   reformat.forEach((user) => {
     const code = user.nat.toLowerCase();
